@@ -2,10 +2,10 @@
 
 This project is designed to scrape all the jobs on Reed that are "Software Developer" jobs in the UK. The aim was to see where the major clusters of jobs are around the UK. (Personally where to consider looking for jobs as an alternative to London...)
 
-I am plan to expand the project to include other job boards and analyze furhter data about the job posts other than location.
+I am plan to expand the project to include other job boards and analyze further data about the job posts.
 
 #How the project was made
-I used mainly Python and Sqlite3 for scraping and recording the information in a SQL database.
+Python and Sqlite3 were used for scraping and recording the information in a SQL database.
 
 - createTables.py
   - Creates the tables needed in the Sqlite3 DB and can also delete the tables 
