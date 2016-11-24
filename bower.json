@@ -1,0 +1,22 @@
+{
+  "name": "Job Clustering",
+  "authors": [
+    "ccdle12 <chriscoverdale12@gmail.com>"
+  ],
+  "description": "Job clustering data on Software Development jobs in the UK",
+  "main": "jobClustering.html",
+  "keywords": [
+    "software",
+    "dev",
+    "jobs"
+  ],
+  "license": "MIT",
+  "homepage": "jobClustering.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
