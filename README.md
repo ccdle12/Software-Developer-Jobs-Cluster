@@ -1,9 +1,5 @@
 # Software-Developer-Jobs-Cluster
 
-This project is designed to scrape all the jobs on Reed that are "Software Developer" jobs in the UK. The aim was to see where the major clusters of jobs are around the UK. (Personally where to consider looking for jobs as an alternative to London...)
-
-I am plan to expand the project to include other job boards and analyze further data about the job posts.
-
 #How the project was made
 Python and Sqlite3 were used for scraping and recording the information in a SQL database.
 
@@ -19,3 +15,26 @@ Python and Sqlite3 were used for scraping and recording the information in a SQL
   - It checks whether there is a matching address the already has the geoData retrieved.
   - It then updates the rows without geoData locations according to matched addresses.
   - This allows for only 2 calls to the Google Maps API for a data size of 4787 jobs
+  
+# Software Developer Job Cluster (UK)
+
+This project was designed to represent software development jobs in the UK as a cluster via Google Maps API. The job posts were scraped from  www.reed.co.uk using "Software Developer" as the search query. The goal was to show the location of software development job clusters in the UK.
+
+I am plan to expand the project to include other job boards and analyze further data about the job posts.
+
+## Built With
+
+* Python
+* SQL
+* HTML/CSS/JavaScript
+
+## Authors
+
+* [ChristopherCoverdale](https://github.com/ccdle12)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
